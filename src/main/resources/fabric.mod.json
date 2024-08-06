@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "teleport",
+  "version": "${version}",
+  "name": "teleport",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      "cn.timelessmc.teleport.FabricMod"
+    ],
+    "client": []
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "*",
+    "floodgate": ">=2.0.0"
+  },
+  "recommends": {
+    "luckperms": ">=5.0.0"
+  }
+}
